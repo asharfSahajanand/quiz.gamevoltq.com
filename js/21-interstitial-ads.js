@@ -9,7 +9,7 @@
     enabled: true,
     mobileOnly: true,
     mobileMaxWidth: 768,
-    adUnitPath: "/23353868385/playbonusnow.com_inter",
+    adUnitPath: "/23353868385/triviazonecom.in_inter",
     triggerOnEveryClick: true,
     // Do interstitial ke beech minimum gap (ms). GAM spam bhi block karta hai.
     clickCooldownMs: 3000,

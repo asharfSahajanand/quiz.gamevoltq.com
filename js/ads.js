@@ -49,7 +49,7 @@
 
             // Define ad slots with proper sizes
             adSlot1 = googletag.defineSlot(
-              '/23353868385/playbonusnow.com_d1',
+              '/23353868385/triviazonecom.in_d1',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-1'
             );
@@ -59,7 +59,7 @@
             }
 
             adSlot2 = googletag.defineSlot(
-              '/23353868385/playbonusnow.com_d2',
+              '/23353868385/triviazonecom.in_d2',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-2'
             );
@@ -70,7 +70,7 @@
 
             // Define ad slot 3
             adSlot3 = googletag.defineSlot(
-              '/23353868385/playbonusnow.com_d3',
+              '/23353868385/triviazonecom.in_d3',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-3'
             );

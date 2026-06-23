@@ -153,7 +153,7 @@
     googletag.cmd.push(function () {
       var rewardAdUnit = (window.adUnits && window.adUnits.reward)
         ? window.adUnits.reward
-        : '/23353868385/playbonusnow.com_reward'; // fallback
+        : '/23353868385/triviazonecom.in_reward'; // fallback
 
       var rewardedSlot = googletag.defineOutOfPageSlot(
         rewardAdUnit,

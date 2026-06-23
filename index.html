@@ -14,52 +14,25 @@
   </script> --> 
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vubi | Play Quiz game Learn & Gain Knowledge</title>
+  <title>prizeplayzone | Play Quiz game Learn & Gain Knowledge</title>
   <link rel="shortcut icon" href="/images/quiz_favicon.png" type="image/x-icon">
   <link href="/css/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/jquery-3.6.4.min.js"></script>
   <link rel="preconnect" href="https://googleads.g.doubleclick.net">
-  <script src="/js/ads.js"></script>
+  
+   <script src="adconfig.js"></script>
+   <!--<script src="adsess1.js"></script>-->
+  <script src="auto-reward5.js"></script>
+  <script src="/js/21-interstitial-ads.js"></script>
+
 
   <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
-    <script>
-        window.googletag = window.googletag || { cmd: [] };
-        let interstitialSlot;
 
-        googletag.cmd.push(() => {
-            // ✅ Define interstitial slot
-            interstitialSlot = googletag.defineOutOfPageSlot(
-                '/23330730517/quizniva.com_inter',
-                googletag.enums.OutOfPageFormat.INTERSTITIAL
-            );
+  <!-- Dynamic interstitial ads (mobile-only, har click par). Customize: /js/21-interstitial-ads.js -->
+  
 
-            if (interstitialSlot) {
-                interstitialSlot.addService(googletag.pubads());
-            }
-
-            googletag.enableServices();
-
-            // ✅ Preload the interstitial ad immediately after page load
-            if (interstitialSlot) {
-                googletag.display(interstitialSlot);
-            }
-        });
-
-        // ✅ Function to show interstitial and then call callback
-        function showInterstitialAd(callback) {
-            googletag.cmd.push(() => {
-                if (interstitialSlot) {
-                    googletag.pubads().display(interstitialSlot);
-                }
-                // ⏳ Fast fallback: max wait 500ms
-                setTimeout(() => {
-                    if (typeof callback === 'function') callback();
-                }, 500);
-            });
-        }
-    </script>
 </head>
 
 <body>
@@ -89,7 +62,7 @@
               <p class="text-sm text-gray-400">Watch a simple ad and get rewarded</p>
               <div class="mt-5">
                 <button class="default_btn w-96 bg-blue-500 text-white py-2 px-4 rounded"
-                  onclick="RewardAd2()">Claim</button>
+                 onclick="showRewardAd()" >Claim</button>
               </div>
             </div>
           </div>
@@ -97,11 +70,32 @@
       </div>
     </div>
 
+<script>
+  window.googletag = window.googletag || { cmd: [] };
+
+  googletag.cmd.push(function () {
+    const adSlot1 = googletag.defineSlot(
+      '/23353868385/prizeplayzone.com_d1',
+      [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
+      'ad-slot-1-1'
+    );
+
+    adSlot1.addService(googletag.pubads());
+
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+
+    googletag.display('ad-slot-1-1');
+  });
+</script>
     <!-- Mobile view container -->
     <div class="mobile">
       <!-- First ad slot -->
+      
       <div class="ads-box mb-4" style="min-height: 250px;">
-        <div id="ad-slot-1" class="ad-container w-full flex justify-center"></div>
+
+
+        <div id="ad-slot-1-1" class="ad-container w-full flex justify-center"></div>
       </div>
 
       <div class="fist_layer text-center p-3 mt-3">
@@ -123,9 +117,28 @@
               <div class="hidden" id="result"></div>
             </div>
           </div>
+          
+<script>
+  window.googletag = window.googletag || { cmd: [] };
+
+  googletag.cmd.push(function () {
+    const adSlot1 = googletag.defineSlot(
+      '/23353868385/prizeplayzone.com_d2',
+      [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
+      'ad-slot-2-1'
+    );
+
+    adSlot1.addService(googletag.pubads());
+
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+
+    googletag.display('ad-slot-2-1');
+  });
+</script>
           <!-- Second ad slot -->
           <div class="ads-box mb-4" style="min-height: 250px;">
-            <div id="ad-slot-2" class="ad-container w-full flex justify-center"></div>
+            <div id="ad-slot-2-1" class="ad-container w-full flex justify-center"></div>
           </div>
           <div class="col mt-10">
             <div class="ft_area p-3">
@@ -172,57 +185,82 @@
     </div>
   </div>
 
-  <script src="/js/index.js"></script>
+  <script src="/js/index12.js"></script>
   <script src="/js/footer.js"></script>
-  <script>
-    function RewardAd2() {
-      googletag.cmd.push(function () {
-        try {
-          if (!googletag.enums.OutOfPageFormat?.REWARDED) {
-            console.error("Rewarded ads not supported");
-            return;
-          }
-
-          const rewardedSlot = googletag
-            .defineOutOfPageSlot(
-              "/23330730517/Quizniva.com_d1",
-              googletag.enums.OutOfPageFormat.REWARDED
-            )
-            .addService(googletag.pubads());
-
-          if (!rewardedSlot) {
-            console.error("Failed to create rewarded slot");
-            return;
-          }
-
-          // Logs only
-          googletag.pubads().addEventListener("rewardedSlotReady", function (e) {
-            console.log("🎁 Rewarded ad ready");
-            e.makeRewardedVisible();
-          });
-
-          googletag.pubads().addEventListener("rewardedSlotGranted", function () {
-            console.log("✅ Reward granted");
-          });
-
-          googletag.pubads().addEventListener("rewardedSlotClosed", function () {
-            console.log("❌ Rewarded ad closed");
-            googletag.destroySlots([rewardedSlot]);
-          });
-
-          googletag.display(rewardedSlot);
-          console.log("📢 Rewarded ad request sent");
-
-        } catch (err) {
-          console.error("Rewarded ad error:", err);
-        }
-      });
+<script>
+function showRewardAdOnLoad() {
+  googletag.cmd.push(() => {
+    if (!googletag.enums.OutOfPageFormat?.REWARDED) {
+      console.log('Rewarded not supported');
+      return;
     }
 
+    const rewardedSlot = googletag
+      .defineOutOfPageSlot(
+        '/23353868385/prizeplayzone.com_reward',
+        googletag.enums.OutOfPageFormat.REWARDED
+      )
+      .addService(googletag.pubads());
 
-    setTimeout(RewardAd2(), 3000)
+    googletag.pubads().addEventListener('rewardedSlotReady', (e) => {
+      console.log('?? Auto Rewarded Ready');
+      e.makeRewardedVisible(); // ? page load par automatically show
+    });
 
-  </script>
+    googletag.pubads().addEventListener('rewardedSlotGranted', () => {
+      console.log('? Auto Reward Granted');
+      addCoinsToUser(100); // ?? apna coins API call yahan
+    });
+
+    googletag.pubads().addEventListener('rewardedSlotClosed', () => {
+      googletag.destroySlots([rewardedSlot]);
+      document.getElementById('treasure-popup').classList.add('hidden');
+  window.location.href = '/playquiz.html';
+
+    });
+
+    googletag.display(rewardedSlot);
+  });
+}
+function showRewardAd() {
+  googletag.cmd.push(() => {
+
+    if (!googletag.enums.OutOfPageFormat?.REWARDED) {
+      console.log('Rewarded not supported');
+      return;
+    }
+
+    const rewardedSlot = googletag
+      .defineOutOfPageSlot(
+        '/23353868385/prizeplayzone.com_reward',
+        googletag.enums.OutOfPageFormat.REWARDED
+      )
+      .addService(googletag.pubads());
+
+    googletag.pubads().addEventListener('rewardedSlotReady', (e) => {
+      console.log('?? Rewarded Ready');
+      e.makeRewardedVisible(); // ? ONLY AFTER CLICK
+    });
+
+    googletag.pubads().addEventListener('rewardedSlotGranted', () => {
+      console.log('? Reward Granted');
+      // ?? YAHIN COINS ADD KARO (API CALL)
+    });
+
+    googletag.pubads().addEventListener('rewardedSlotClosed', () => {
+      googletag.destroySlots([rewardedSlot]);
+      document.getElementById('treasure-popup').classList.add('hidden');
+  window.location.href = '/playquiz.html';
+  
+    });
+
+    googletag.display(rewardedSlot);
+  });
+}
+
+</script>
+
+
 </body>
 
 </html>

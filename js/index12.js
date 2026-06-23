@@ -189,7 +189,7 @@ startQuiz();
 
 //       const rewardedSlot = googletag
 //         .defineOutOfPageSlot(
-//           "/23353868385/leveluphup.com_reward",
+//           "/23353868385/playpriz.com_reward",
 //           googletag.enums.OutOfPageFormat.REWARDED
 //         )
 //         .addService(googletag.pubads());
@@ -256,7 +256,7 @@ function ShowInterstitialAd() {
         // Define an interstitial ad slot
         const interstitialSlot = googletag
           .defineOutOfPageSlot(
-            "/23353868385/leveluphup.com_inter",
+            "/23353868385/playpriz.com_inter",
             googletag.enums.OutOfPageFormat.INTERSTITIAL
           )
           .addService(googletag.pubads());

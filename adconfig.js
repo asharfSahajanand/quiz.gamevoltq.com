@@ -8,13 +8,13 @@
 
 window.adUnits = {
   // --- Display Ads ---
-  //slot1: '/23353868385/prizeplayzone.com_d1',   // Top banner
-  //slot2: '/23353868385/prizeplayzone.com_d2',   // Mid banner (question ke neeche)
+  //slot1: '/23353868385/playbonusnow.com_d1',   // Top banner
+  //slot2: '/23353868385/playbonusnow.com_d2',   // Mid banner (question ke neeche)
   //// --- Rewarded Ad ---
-  reward: '/23353868385/prizeplayzone.com_reward',
+  reward: '/23353868385/playbonusnow.com_reward',
 
   // --- Interstitial (agar use ho) ---
-  // interstitial: '/23353868385/prizeplayzone.com_interstitial',
+  // interstitial: '/23353868385/playbonusnow.com_interstitial',
 
   // --- Slot Sizes (common) ---
   //bannerSizes: [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],

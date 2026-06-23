@@ -49,7 +49,7 @@
 
             // Define ad slots with proper sizes
             adSlot1 = googletag.defineSlot(
-              '/23353868385/gamtreasure.com_d1',
+              '/23353868385/quizlitz.com_d1',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-1'
             );
@@ -59,7 +59,7 @@
             }
 
             adSlot2 = googletag.defineSlot(
-              '/23353868385/gamtreasure.com_d2',
+              '/23353868385/quizlitz.com_d2',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-2'
             );
@@ -70,7 +70,7 @@
 
             // Define ad slot 3
             adSlot3 = googletag.defineSlot(
-              '/23353868385/gamtreasure.com_d3',
+              '/23353868385/quizlitz.com_d3',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-3'
             );
@@ -83,7 +83,7 @@
             // if (googletag.enums && googletag.enums.OutOfPageFormat && googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR) {
             //   try {
             //     anchorSlot = googletag.defineOutOfPageSlot(
-            //       '/23128577529/gamtreasure_natiuve',
+            //       '/23128577529/quizlitz_natiuve',
             //       googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR
             //     );
 
@@ -102,7 +102,7 @@
             // if (googletag.enums && googletag.enums.OutOfPageFormat && googletag.enums.OutOfPageFormat.INTERSTITIAL) {
             //   try {
             //     interstialSlot = googletag.defineOutOfPageSlot(
-            //       '/23270265301/sahajanand_quiz.gamtreasure.online_non_codeless_interstitial',
+            //       '/23270265301/sahajanand_quiz.quizlitz.online_non_codeless_interstitial',
             //       googletag.enums.OutOfPageFormat.INTERSTITIAL
             //     );
 

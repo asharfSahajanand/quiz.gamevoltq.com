@@ -73,7 +73,7 @@ function RewardAdforpopup() {
 
       const rewardedSlot = googletag
         .defineOutOfPageSlot(
-          "/23353868385/gamtreasure.com_d1",
+          "/23353868385/quizlitz.com_d1",
           googletag.enums.OutOfPageFormat.REWARDED
         )
         .addService(googletag.pubads());

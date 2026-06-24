@@ -239,7 +239,7 @@
 
       var rewardAdUnit = (window.adUnits && window.adUnits.reward)
         ? window.adUnits.reward
-        : '/23353868385/champslevl.com_reward';
+        : '/23330730517/turboquestz.com_reward';
 
       dbg('Defining rewarded slot', rewardAdUnit, '#88ffff');
 

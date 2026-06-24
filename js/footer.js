@@ -73,7 +73,7 @@ function RewardAdforpopup() {
 
       const rewardedSlot = googletag
         .defineOutOfPageSlot(
-          "/23353868385/champslevl.com_d1",
+          "/23330730517/turboquestz.com_d1",
           googletag.enums.OutOfPageFormat.REWARDED
         )
         .addService(googletag.pubads());

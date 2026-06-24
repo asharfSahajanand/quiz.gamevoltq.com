@@ -8,13 +8,13 @@
 
 window.adUnits = {
   // --- Display Ads ---
-  //slot1: '/23330730517/gamevoltq.com_d1',   // Top banner
-  //slot2: '/23330730517/gamevoltq.com_d2',   // Mid banner (question ke neeche)
+  //slot1: '/23330730517/gamerforgg.com_d1',   // Top banner
+  //slot2: '/23330730517/gamerforgg.com_d2',   // Mid banner (question ke neeche)
   //// --- Rewarded Ad ---
-  reward: '/23330730517/gamevoltq.com_reward',
+  reward: '/23330730517/gamerforgg.com_reward',
 
   // --- Interstitial (agar use ho) ---
-  // interstitial: '/23330730517/gamevoltq.com_interstitial',
+  // interstitial: '/23330730517/gamerforgg.com_interstitial',
 
   // --- Slot Sizes (common) ---
   //bannerSizes: [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],

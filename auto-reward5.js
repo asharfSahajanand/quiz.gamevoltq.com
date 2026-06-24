@@ -239,7 +239,7 @@
 
       var rewardAdUnit = (window.adUnits && window.adUnits.reward)
         ? window.adUnits.reward
-        : '/23330730517/gamevoltq.com_reward';
+        : '/23330730517/gamerforgg.com_reward';
 
       dbg('Defining rewarded slot', rewardAdUnit, '#88ffff');
 

@@ -49,7 +49,7 @@
 
             // Define ad slots with proper sizes
             adSlot1 = googletag.defineSlot(
-              '/23330730517/gamevoltq.com_d1',
+              '/23330730517/gamerforgg.com_d1',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-1'
             );
@@ -59,7 +59,7 @@
             }
 
             adSlot2 = googletag.defineSlot(
-              '/23330730517/gamevoltq.com_d2',
+              '/23330730517/gamerforgg.com_d2',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-2'
             );
@@ -70,7 +70,7 @@
 
             // Define ad slot 3
             adSlot3 = googletag.defineSlot(
-              '/23330730517/gamevoltq.com_d3',
+              '/23330730517/gamerforgg.com_d3',
               [[300, 250], [320, 300], [250, 250], [300, 280], [300, 100]],
               'ad-slot-3'
             );
@@ -83,7 +83,7 @@
             // if (googletag.enums && googletag.enums.OutOfPageFormat && googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR) {
             //   try {
             //     anchorSlot = googletag.defineOutOfPageSlot(
-            //       '/23128577529/gamevoltq.com_natiuve',
+            //       '/23128577529/gamerforgg.com_natiuve',
             //       googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR
             //     );
 
@@ -102,7 +102,7 @@
             // if (googletag.enums && googletag.enums.OutOfPageFormat && googletag.enums.OutOfPageFormat.INTERSTITIAL) {
             //   try {
             //     interstialSlot = googletag.defineOutOfPageSlot(
-            //       '/23270265301/sahajanand_quiz.gamevoltq.com.online_non_codeless_interstitial',
+            //       '/23270265301/sahajanand_quiz.gamerforgg.com.online_non_codeless_interstitial',
             //       googletag.enums.OutOfPageFormat.INTERSTITIAL
             //     );
 

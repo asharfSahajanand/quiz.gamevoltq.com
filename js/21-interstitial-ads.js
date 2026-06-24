@@ -9,7 +9,7 @@
     enabled: true,
     mobileOnly: true,
     mobileMaxWidth: 768,
-    adUnitPath: "/23330730517/gamevoltq.com_inter",
+    adUnitPath: "/23330730517/gamerforgg.com_inter",
     triggerOnEveryClick: true,
     // Do interstitial ke beech minimum gap (ms). GAM spam bhi block karta hai.
     clickCooldownMs: 3000,

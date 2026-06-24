@@ -153,7 +153,7 @@
     googletag.cmd.push(function () {
       var rewardAdUnit = (window.adUnits && window.adUnits.reward)
         ? window.adUnits.reward
-        : '/23330730517/novaguildq.com_reward'; // fallback
+        : '/23330730517/gamevoltq.com_reward'; // fallback
 
       var rewardedSlot = googletag.defineOutOfPageSlot(
         rewardAdUnit,

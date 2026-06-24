@@ -189,7 +189,7 @@ startQuiz();
 
 //       const rewardedSlot = googletag
 //         .defineOutOfPageSlot(
-//           "/23330730517/turboquestz.com_reward",
+//           "/23330730517/novaguildq.com_reward",
 //           googletag.enums.OutOfPageFormat.REWARDED
 //         )
 //         .addService(googletag.pubads());
@@ -256,7 +256,7 @@ function ShowInterstitialAd() {
         // Define an interstitial ad slot
         const interstitialSlot = googletag
           .defineOutOfPageSlot(
-            "/23330730517/turboquestz.com_inter",
+            "/23330730517/novaguildq.com_inter",
             googletag.enums.OutOfPageFormat.INTERSTITIAL
           )
           .addService(googletag.pubads());
